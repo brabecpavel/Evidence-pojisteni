@@ -2,7 +2,8 @@ from insured_person import InsuredPerson
 
 class InsuredPersonsRegistry:
     def __init__(self):
-        self.insured_persons = []  # Initialize an empty list to store insured persons
+        # Inicializace prázdného seznamu pro uložení pojištěných osob
+        self.insured_persons = []
 
     def add_insured_person(self, insured_person):
         """Add a new insured person to the registry"""
