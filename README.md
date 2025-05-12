@@ -17,7 +17,7 @@ Aplikace slouží k evidenci pojištěnců v jednoduchém textovém prostředí.
 - main.py – Hlavní soubor pro spuštění aplikace
 
 ## Spuštění aplikace
-Po stažení nebo naklonování repozitáře stačí spustit soubor main.py, který spustí aplikaci v konzolovém prostředí.
+Po stažení nebo naklonování repozitáře spusťte soubor main.py, který načte aplikaci v konzolovém prostředí.
 
 ## Autor
 Pavel Brabec  
