@@ -5,7 +5,12 @@ class UserInterface:
     def __init__(self):
         """Initialize the UserInterface with a new InsuredPersonsRegistry instance"""
         self.registry = InsuredPersonsRegistry()
-
+        
+    # Vyčištění konzole výpisem prázdných řádků
+    def clear_console(self):
+        """Clear the console by printing 100 new lines"""
+        print("\n" * 100)
+    
     # Pauza pro uživatele, pokračuje po stisku klávesy Enter
     def pause(self):
         """
@@ -14,11 +19,6 @@ class UserInterface:
         """
         input("\nPokračujte stisknutím klávesy Enter...")
         self.clear_console()
-
-    # Vyčištění konzole výpisem prázdných řádků
-    def clear_console(self):
-        """Clear the console by printing 100 new lines"""
-        print("\n" * 100)
 
     # Metoda pro načtení řetězce od uživatele
     def get_string_input(self, prompt):
