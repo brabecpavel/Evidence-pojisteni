@@ -1,5 +1,5 @@
 # Evidence-pojisteni
-Tato aplikace slouží k evidenci pojištěnců v jednoduchém textovém prostředí. Umožňuje přidávání nových pojištěnců, zobrazení jejich seznamu a vyhledávání. Projekt byl vytvořen v rámci kurzu na [itnetwork.cz](https://www.itnetwork.cz/).
+Aplikace slouží k evidenci pojištěnců v jednoduchém textovém prostředí. Umožňuje přidávání nových pojištěnců, zobrazení jejich seznamu a vyhledávání. Projekt byl vytvořen v rámci kurzu na [itnetwork.cz](https://www.itnetwork.cz/).
 
 ## Použité technologie
 - Python 3
