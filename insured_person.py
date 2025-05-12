@@ -17,7 +17,7 @@ class InsuredPerson:
             input_keywords: List of search terms (lowercase)
 
         Returns:
-            bool: True if all keywords are found in person's data
+            boolean: True if all keywords are found in person's data
         """
         searchable_text = f"{self.first_name} {self.last_name} {self.phone}".lower()
         return all(keyword in searchable_text for keyword in input_keywords)
